@@ -1,0 +1,37 @@
+.container{
+    text-align: center;
+    font-size: large;
+    border: 2px solid lightskyblue;
+    border-radius: 20px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color:rgba(95, 110, 116, 0.648);
+
+}
+
+.container_input{
+    background-color: black;
+    border: 1px solid skyblue;
+    padding: 5%;
+    border-radius: 10px;
+}
+input{
+    color: rgb(254, 248, 248);
+    background-color: black;
+    text-decoration: solid lightblue;
+}
+input[type="text"]::placeholder {
+    color:rgb(25, 148, 136);
+  }
+    .btn1{
+        color: black;
+        font-size: 1.1rem;
+        padding: 0.7rem 1.5rem;
+        border-radius: 0.3rem;
+        background-color: lightskyblue;
+        border: none;
+        right: 0.5rem;
+        bottom: 0.5rem;
+    }
